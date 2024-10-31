@@ -27,7 +27,7 @@ const Home = () => {
           <h1>
             <span id={`${color}s`}>I'M Shoojat rasool.</span>
           </h1>
-          <h1 style={mode ? {} : { color: "#626262" }}>games DEVELOPER</h1>
+          <h1 style={mode ? {} : { color: "#626262" }}>games Designer</h1>
           <p style={mode ? {} : { color: "#626262" }}>
           As a React front-end developer, I specialize in building user interfaces and interactive web applications using the React JavaScript library. My skill set includes proficiency in HTML, CSS, and JavaScript, along with a strong understanding of React's component-based architecture, state management solutions like Redux or Context API, and modern front-end development tools and workflows.
           </p>
