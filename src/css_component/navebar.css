@@ -1,0 +1,322 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nave{
+   position: fixed;
+   top: 4%;
+   right: 20px;
+   width: 60px;
+   height: 650px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.light_icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #727272;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+.light_icon:hover{
+    background-color: #ee6192;
+    transition: all .2s ease-in-out;
+}
+.light_icon span{
+    background-color: #ee6192;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    height: 100%;
+    border-radius: 25px 0px 0px 25px;
+    width: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    overflow: hidden;
+   display: flex;
+   z-index: -1;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in-out;
+}
+.light_icon:hover span{
+    width: 300%;
+    background-color:  #ee6192;
+    transition: all .2s ease-in-out;
+}
+
+.light_mode{
+   font-size: 25px;
+   color: white;
+  
+}
+.nave ul li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.nave a{
+    color: white;
+    text-decoration: none;
+}
+
+.ham_burger{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 3%;
+    top: 20px;
+    background-color: #2b2a2a;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+.ham_burger:hover{
+    background-color: palevioletred;
+    transition: all .3s ease-in-out;
+}
+.res_light_mod{
+    display: none;
+   position: absolute;
+   top: 100px;
+   right: 3%;
+   z-index: 1;
+   background-color: #2b2a2a;
+}
+.nave2{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+   width: 0;
+   transition:all .5s ease-in-out;
+    height: 100vh;
+    background-color: #727272;
+   
+}
+.nave2 ul{
+    margin-top: 120px;
+    font-size:30px;
+    
+}
+.nave2 ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.nave2 ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+.nave2 ul li a:hover{
+    color: palevioletred;
+    transition: all .3s ease-in-out;
+}
+.icons{
+    margin-right: 40px;
+}
+    
+
+@media screen and (max-width: 1500px) {
+    .nave{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .nave{
+        display: none;
+    }
+    .ham_burger{
+        display:  flex;
+    }
+    .res_light_mod{
+        display:  flex;
+    }
+}
+@media screen and (max-width: 500px) {
+    .nave2 ul li a {
+        font-size: 25px;
+    }
+}
+
+
+
+
+.green:hover{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+  
+}
+.greens ul li a:hover{
+    color:#05c46b ;
+    transition: all .3s ease-in-out;
+}
+.green span{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+    
+}
+.green:hover span{
+    background-color: #05c46b;
+    transition: all .2s ease-in-out;
+    border: 2px solid #05c46b ;
+}
+.acqua:hover{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+}
+.acquas ul li a:hover{
+    color:#55efc4 ;
+    transition: all .3s ease-in-out;
+}
+.acqua span{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+}
+.acqua:hover span{
+    background-color: #55efc4;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #55efc4;
+}
+.yellow:hover{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+}
+.yellows ul li a:hover{
+    color:#ffb400 ;
+    transition: all .3s ease-in-out;
+}
+.yellow span{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+}
+.yellow:hover span{
+    background-color: #ffb400;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #ffb400;
+}
+#light{
+    background-color: lightgray; 
+    transition: all .2s ease-in-out;
+}
+#light:hover{
+    background-color: #ee6192;
+    transition: all .2s ease-in-out;
+}
+.picos ul li a:hover{
+    color:#fd79a8 ;
+    transition: all .3s ease-in-out;
+}
+.pico:hover{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+}
+.pico span{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+}
+.pico:hover span{
+    background-color: #fd79a8;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #fd79a8;
+}
+.orange:hover{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+}
+.oranges ul li a:hover{
+    color:#e17055 ;
+    transition: all .3s ease-in-out;
+}
+.orange span{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+}
+.orange:hover span{
+    background-color: #e17055;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #e17055;
+}
+.blue:hover{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+}
+.blues ul li a:hover{
+    color:#0652DD;
+    transition: all .3s ease-in-out;
+}
+.blue span{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+}
+.blue:hover span{
+    background-color: #0652DD;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #0652DD;
+}
+.rose:hover{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+}
+.roses ul li a:hover{
+    color:#FDA7DF;
+    transition: all .3s ease-in-out;
+}
+.rose span{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+}
+.rose:hover span{
+    background-color: #FDA7DF;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #FDA7DF;
+}
+.disko:hover{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+}
+.diskos ul li a:hover{
+    color:#0fbcf9;
+    transition: all .3s ease-in-out;
+}
+.disko span{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+}
+.disko:hover span{
+    background-color: #0fbcf9;
+    transition: all .2s ease-in-out;
+    border: 1.5px solid #0fbcf9;
+}
+.red:hover{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+}
+.reds ul li a:hover{
+    color:rgb(255, 56, 56);
+    transition: all .3s ease-in-out;
+}
+.red span{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+}
+.red:hover span{
+    background-color: rgb(255, 56, 56);
+    transition: all .2s ease-in-out;
+    border: 1.5px solid rgb(255, 56, 56);
+}

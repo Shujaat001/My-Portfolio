@@ -1,0 +1,202 @@
+*{
+    margin: 0%;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+
+
+.container2{
+    width: 70%;
+
+    margin-left: 15%;
+} 
+.about_header{
+    margin-top: 5vh;
+}
+.about_sec1{
+    width:  100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+.about_item1{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid rgb(181, 9, 9);
+    column-gap: 20px; */
+}
+.about_me{
+    margin-top: 30px;
+   margin-bottom: 20px;
+
+  width: 50%;
+
+  float: left;
+ 
+}
+.about_btn{
+   width: 250px;
+
+}
+.about_me p{
+    color: #939393;
+    font-size: 17px;
+    margin-top: 25px;
+}
+.about_me span{
+    font-weight: 700;
+}
+.about_item2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   column-gap:50px ;
+   row-gap: 20px;
+}
+.experience{
+    border: 1px solid #939393;
+    border-radius: 10px;
+}
+.experience h1{
+    color: palevioletred;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+.experience p{
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.horizenatl_line{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.horizenatl_line hr{
+    height: 2px;
+    width: 40%;
+    border-radius: 2px;
+    background-color: #939393;
+} 
+
+.my_skill{
+    width: 100%;
+    margin: 50px  0;
+    text-align: center;
+    color: white;
+}
+.skil_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 90px;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: 10%;
+}
+.skill_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.skill_detail h3{
+    margin-top: 10px;
+}
+
+.skill_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    border: 8px solid palevioletred;
+    border-radius: 50%;
+}
+
+
+.education_heading{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.education_part{
+    width: 100%;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px; 
+    row-gap: 60px;
+    color: white;
+}
+.exprirnce_part{
+   
+}
+.education_items{
+    display: grid;
+    min-height: 160px;
+    grid-template-columns: .12fr 1fr;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.deg_icon{
+    position: relative;
+    z-index: -1;
+}
+.deg_icon p{
+   display: flex;cursor: pointer;
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: palevioletred;
+}
+.deg_icon div{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 2px ;
+    background-color: #939393;
+    min-height: 110px;
+    z-index: -1;
+} 
+.degree_part{
+   
+}
+.deg_detail{
+   
+}
+.deg_detail h5{
+    text-align: center;
+    border-radius: 30px;
+    width: 130px;
+    color: rgb(63, 54, 54);
+    background-color: #a7a6a6;
+    border: 1px solid #939393;
+    margin-top: 5px ;
+}
+.deg_detail h1{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.deg_detail h1 span{
+    color: #a7a6a6;
+}
+.deg_detail p{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    text-align: left;
+}
