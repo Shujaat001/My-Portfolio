@@ -25,7 +25,7 @@ const Home = () => {
         <div className="home_sec6">
           <div className="home_sec7" id={`${color}`} w></div>
           <h1>
-            <span id={`${color}s`}>I'M JOUN ABBAS.</span>
+            <span id={`${color}s`}>I'M Shoojat rasool.</span>
           </h1>
           <h1 style={mode ? {} : { color: "#626262" }}>WEB DEVELOPER</h1>
           <p style={mode ? {} : { color: "#626262" }}>
